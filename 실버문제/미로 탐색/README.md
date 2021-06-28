@@ -23,3 +23,7 @@
 3. `if 0 <= moved_x < n and 0 <= moved_y < m and maps[moved_x][moved_y] and not visited[moved_x][moved_y]:`
 
    - 이동된 좌표 `moved_x`, `moved_y`가 조건에 해당 되었을 경우 동작한다.
+![KakaoTalk_20210628_153850325](https://user-images.githubusercontent.com/84619866/123592264-f7581080-d827-11eb-9d79-255c5be2d093.jpg)
+
+
+4. 최종적으로 `maps[-1][-1]`까지 도달할 수 있는 최소의 칸 수가 구해진다.
