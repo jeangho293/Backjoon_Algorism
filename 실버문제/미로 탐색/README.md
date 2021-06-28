@@ -12,10 +12,18 @@
 
 1. `maps = [list(map(int, list(sys.stdin.readline().rstrip()))) for _ in range(n)]`
 
- - 간편하게 `미로의 크기`를 구현한다.
- 
- 2. `moving_xy = [(0, 1), (0, -1), (-1, 0), (1, 0)]`
-  - 현재의 장소에서 `상하좌우`로 갈 수 있는 경로를 구한다.
+   - 간편하게 `미로의 크기`를 구현한다.
+
+
+
+2. `moving_xy = [(0, 1), (0, -1), (-1, 0), (1, 0)]`
+
+   - 현재의 장소에서 `상하좌우`로 갈 수 있는 경로를 구한다.
   
-  3. `if 0 <= moved_x < n and 0 <= moved_y < m and maps[moved_x][moved_y] and not visited[moved_x][moved_y]:`
+3. `if 0 <= moved_x < n and 0 <= moved_y < m and maps[moved_x][moved_y] and not visited[moved_x][moved_y]:`
+
    - 이동된 좌표 `moved_x`, `moved_y`가 조건에 해당 되었을 경우 동작한다.
+![KakaoTalk_20210628_153850325](https://user-images.githubusercontent.com/84619866/123592264-f7581080-d827-11eb-9d79-255c5be2d093.jpg)
+
+
+4. 최종적으로 `maps[-1][-1]`까지 도달할 수 있는 최소의 칸 수가 구해진다.
