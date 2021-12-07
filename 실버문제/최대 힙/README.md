@@ -19,3 +19,7 @@
     else:
         heappush(heap_list, -number)        # 음수의 형태로 heappush
      ```
+   
+## 실행 결과
+
+![image](https://user-images.githubusercontent.com/84619866/144954047-38b956a8-15fd-4c30-8e74-de73f9f68087.png)
