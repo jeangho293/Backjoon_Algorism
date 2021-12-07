@@ -17,3 +17,7 @@
         except:
             print(0)
     ```
+   
+## 실행 결과
+
+![image](https://user-images.githubusercontent.com/84619866/144953072-b4528a1c-ee83-44eb-a137-e071047f741f.png)
