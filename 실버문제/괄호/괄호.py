@@ -20,3 +20,23 @@ for _ in range(int(sys.stdin.readline())):
         print('NO')
     else:
         print('YES')
+
+# import sys
+#
+# bracket = {'(': ')'}
+# for _ in range(int(sys.stdin.readline())):
+#     stack = []
+#     string = sys.stdin.readline().rstrip()
+#     if len(string) % 2 == 0:
+#         for i in string:
+#             try:
+#                 if not stack:
+#                     stack.append(i)
+#                 else:
+#                     stack.pop() if bracket[stack[-1]] == i else stack.append(i)
+#             except KeyError:
+#                 break
+#     else:
+#         print('NO')
+#         continue
+#     print('NO' if stack else 'YES')
